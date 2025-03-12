@@ -1,63 +1,74 @@
-# Real Estate - Real Estate Web App
+# 🏡 Homyz - Real Estate Web App
 
-Homyz is a modern real estate web application built with the MERN (MongoDB, Express.js, React, Node.js) stack. This platform allows users to search, list, book, and explore various properties available for sale or rent. With a user-friendly interface, advanced search options, and seamless user experience, it simplifies the real estate journey for both buyers and sellers.
+Homyz is a modern real estate web application built with the **MERN (MongoDB, Express.js, React, Node.js)** stack. This platform enables users to **search, list, book, and explore** various properties available for sale or rent. With a **user-friendly interface, advanced search options,** and a **seamless user experience**, it simplifies the real estate journey for both buyers and sellers.
 
-![image](https://github.com/Shivaam16/Real-estate-booking/assets/99130567/9dce86bd-771c-493a-821f-bce92039c688)
+## 🚀 Features
 
-## Features
+### 🔍 User Features
 
-- **Property Listings**: Browse a wide range of property listings with comprehensive details, including descriptions, prices, and locations.
-- **Advanced Search**: Filter properties based on type (rent/sale), amenities, and sorting options.
-- **User Profiles**: Registered users can create and manage profiles with profile pictures and property listings.
-- **Authentication**: Secure user registration and login with Google OAuth.
-- **Book Your Visit**: Schedule property visits directly through the platform.
-- **Maps & Location Information**: Integrated maps provide insights into nearby amenities such as schools, hospitals, and restaurants.
-- **Mark as Favorites**: Save preferred properties for easy access later.
-- **Detailed Property Descriptions**: Each listing includes features, room dimensions, and virtual tours for an immersive experience.
+- **🏠 Property Listings:** Browse a wide range of properties with details such as descriptions, prices, and locations.
+- **📊 Advanced Search:** Filter properties based on type (rent/sale), amenities, and sorting options.
+- **👤 User Profiles:** Create and manage profiles with profile pictures and property listings.
+- **🔐 Authentication:** Secure user registration and login with Google OAuth.
+- **📅 Book Your Visit:** Schedule property visits directly through the platform.
+- **🗺️ Maps & Location Insights:** Integrated maps show nearby amenities such as schools, hospitals, and restaurants.
+- **❤️ Mark as Favorites:** Save preferred properties for easy access later.
+- **📝 Detailed Property Descriptions:** Each listing includes features, room dimensions, and virtual tours for an immersive experience.
 
-![image](https://github.com/Shivaam16/Real-estate-booking/assets/99130567/a49e7fd3-68cf-4e35-ab2a-d88d279fb5a1)
-![image](https://github.com/Shivaam16/Real-estate-booking/assets/99130567/a4f9bd34-9c94-40ea-ad42-8b2d66723028)
-![image](https://github.com/Shivaam16/Real-estate-booking/assets/99130567/43de1959-9201-4f0e-99e5-47faac7eb177)
+## 🛠️ Tech Stack
 
-## Installation
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** Google OAuth, JWT
+- **Hosting:** Deployed on a cloud-based service
+- **Maps API:** Integrated location-based insights
 
-1. **Clone the repository:**
+## 📌 Installation Guide
+
+### Prerequisites
+
+Ensure you have the following installed:
+- **Node.js** (v16 or later)
+- **MongoDB** (local or cloud instance)
+- **Git**
+
+### Steps to Set Up Locally
+
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Shivaam16/Real-estate-booking.git
-   ```
-
-2. **Navigate to the project directory:**
-   ```bash
    cd Real-estate-booking
    ```
-
-3. **Install server dependencies:**
+2. **Install Dependencies:**
    ```bash
    npm install
    ```
-
-4. **Install client dependencies:**
+3. **Install Client Dependencies:**
    ```bash
    cd client
    npm install
    ```
-
-5. **Create a `.env` file in the root directory with the following configuration:**
-   ```
-   MONGO_URI="your_mongodb_connection_string"
-   JWT_SECRET="your_jwt_secret"
-   ```
-
-6. **Start the development server:**
+4. **Set Up Environment Variables:**
+   - Create a `.env` file in the root directory.
+   - Add the necessary configuration values (e.g., database URL, API keys, JWT secret).
+5. **Start the Backend Server:**
    ```bash
    npm run dev
    ```
+6. **Access the Application:**
+   - Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Usage
+## 🔗 Live Demo & Repository
 
-- Explore property listings, customize your search, and create a user profile to list properties or access additional features.
+- **GitHub Repository:** [Real Estate Web App](https://github.com/Shivaam16/Real-estate-booking)
+- **Live Project:** (https://full-stack-real-estate-youtube-sooty.vercel.app/)
 
-## Contributing
+## 📜 License
+
+This project is open-source and available under the [MIT License](./LICENSE).
+
+## 👥 Contributors
 
 Contributions are welcome! Follow these steps to contribute:
 
@@ -76,12 +87,6 @@ Contributions are welcome! Follow these steps to contribute:
    ```
 5. Create a pull request.
 
-## License
+## 📞 Contact
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
-## Contact
-
-- **GitHub**: [Shivaam16](https://github.com/Shivaam16)
-- **LinkedIn**: [Shivam Kaushik](https://www.linkedin.com/in/shivam-kaushik-31a450228/)
-
+For any queries or collaborations, reach out via email at **skshivamkaushik16@gmail.com** or open an issue on GitHub.
