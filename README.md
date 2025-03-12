@@ -1,75 +1,57 @@
 # Real Estate - Real Estate Web App
 
+Homyz is a modern real estate web application built with the MERN (MongoDB, Express.js, React, Node.js) stack. This platform allows users to search, list, book, and explore various properties available for sale or rent. With a user-friendly interface, advanced search options, and seamless user experience, it simplifies the real estate journey for both buyers and sellers.
 
-
-Homyz is a modern real estate web application built with the MERN (MongoDB, Express.js, React, Node.js) stack. It provides a platform for users to search, list, book,  and explore various properties, whether for sale or rent. The application offers a user-friendly interface, advanced search options, and a seamless user experience.
-
-![image](https://github.com/Ananya01Agrawal/Real-estate-Booking-Website/assets/99130567/9dce86bd-771c-493a-821f-bce92039c688)
-
+![image](https://github.com/Shivaam16/Real-estate-booking/assets/99130567/9dce86bd-771c-493a-821f-bce92039c688)
 
 ## Features
 
-- *Property Listings*: View a wide range of property listings with detailed information, including descriptions, prices, addresses, and more.
+- **Property Listings**: Browse a wide range of property listings with comprehensive details, including descriptions, prices, and locations.
+- **Advanced Search**: Filter properties based on type (rent/sale), amenities, and sorting options.
+- **User Profiles**: Registered users can create and manage profiles with profile pictures and property listings.
+- **Authentication**: Secure user registration and login with Google OAuth.
+- **Book Your Visit**: Schedule property visits directly through the platform.
+- **Maps & Location Information**: Integrated maps provide insights into nearby amenities such as schools, hospitals, and restaurants.
+- **Mark as Favorites**: Save preferred properties for easy access later.
+- **Detailed Property Descriptions**: Each listing includes features, room dimensions, and virtual tours for an immersive experience.
 
-- *Advanced Search*: Customize your property search by type (rent/sale), amenities, sorting options, and more.
-
-- *User Profiles*: Registered users can create and manage their profiles with profile pictures and listings also.
-
-- *Authentication*: Secure user registration and login functionality with Google OAuth.
-
-- *Book your Visit*: you can also select the date at which you want to visit the site.
-
-- *Maps and Location Information*: Integrating maps and providing location information is crucial for real estate and hospitality websites. Interactive maps can show the location of properties, nearby amenities (e.g., schools, restaurants, hospitals), transportation options, and other points of interest. This helps users understand the neighborhood and make informed decisions.
-
-- *Mark as Favourites*: you can also mark as favourite the property which you like.
-
-- *Property Details and Descriptions*: Each property listing should have comprehensive details and descriptions, including property features, room dimensions, amenities, nearby attractions, and any unique selling points. High-quality images and virtual tours can provide a more immersive experience for users.
-
-- ![image](https://github.com/Ananya01Agrawal/Real-estate-Booking-Website/assets/99130567/a49e7fd3-68cf-4e35-ab2a-d88d279fb5a1)
-
-![image](https://github.com/Ananya01Agrawal/Real-estate-Booking-Website/assets/99130567/a4f9bd34-9c94-40ea-ad42-8b2d66723028)
-
-![image](https://github.com/Ananya01Agrawal/Real-estate-Booking-Website/assets/99130567/43de1959-9201-4f0e-99e5-47faac7eb177)
-
-
+![image](https://github.com/Shivaam16/Real-estate-booking/assets/99130567/a49e7fd3-68cf-4e35-ab2a-d88d279fb5a1)
+![image](https://github.com/Shivaam16/Real-estate-booking/assets/99130567/a4f9bd34-9c94-40ea-ad42-8b2d66723028)
+![image](https://github.com/Shivaam16/Real-estate-booking/assets/99130567/43de1959-9201-4f0e-99e5-47faac7eb177)
 
 ## Installation
 
-1. Clone the repository:
-
-   bash
+1. **Clone the repository:**
+   ```bash
    git clone https://github.com/Shivaam16/Real-estate-booking.git
-   
+   ```
 
-2. Change into the project directory:
-   bash
-   cd Real-estate-Booking-Website
-   
-3. Install server dependencies:
+2. **Navigate to the project directory:**
+   ```bash
+   cd Real-estate-booking
+   ```
 
-   
+3. **Install server dependencies:**
+   ```bash
    npm install
-   
+   ```
 
-4. Install client dependencies:
-
-   
+4. **Install client dependencies:**
+   ```bash
    cd client
    npm install
-   
+   ```
 
-5. Create a .env file in the root directory with your configuration settings.
+5. **Create a `.env` file in the root directory with the following configuration:**
+   ```
+   MONGO_URI="your_mongodb_connection_string"
+   JWT_SECRET="your_jwt_secret"
+   ```
 
-
-   MONGO = "MONGODB URI"
-   JWT_SECRET = "JWTSECRET"
-   
-
-6. Start the development server:
-
-   
+6. **Start the development server:**
+   ```bash
    npm run dev
-   
+   ```
 
 ## Usage
 
@@ -77,28 +59,22 @@ Homyz is a modern real estate web application built with the MERN (MongoDB, Expr
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps to contribute to the project:
+Contributions are welcome! Follow these steps to contribute:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-
-   bash
+2. Create a new branch:
+   ```bash
    git checkout -b feature/your-feature-name
-   
-
-3. Make your changes and commit them:
-
-   bash
+   ```
+3. Make your changes and commit:
+   ```bash
    git commit -m "Your commit message here"
-   
-
-4. Push your changes to your fork:
-
-   bash
+   ```
+4. Push to your fork:
+   ```bash
    git push origin feature/your-feature-name
-   
-
-5. Create a pull request to the main repository.
+   ```
+5. Create a pull request.
 
 ## License
 
@@ -106,5 +82,6 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## Contact
 
-1. [GITHUB]()
-2. [LINKEDIN](https://www.linkedin.com/in/shivam-kaushik-31a450228/)
+- **GitHub**: [Shivaam16](https://github.com/Shivaam16)
+- **LinkedIn**: [Shivam Kaushik](https://www.linkedin.com/in/shivam-kaushik-31a450228/)
+
